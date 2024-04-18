@@ -1,15 +1,18 @@
-pipeline {
+pipeline{
 agent any  
 stages
 {   stage ('my first job to print')
-     {steps {sh 'echo hello_jenkins'}}
+     {steps { sh 'echo hello_jenkins' }}
+
 
     stage ('my secound job to print')
-     {steps {sh 'echo hi_maven'}}
+     {steps { sh 'echo hi_maven' }}
+
  
     stage ('my therd job to print')
-     {steps {sh 'echo hi_java'}}
+     {steps { sh 'echo hi_java' }}
+
     
-}
+
 }
 }
