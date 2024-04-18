@@ -4,11 +4,12 @@ stages
 {   stage ('my first job to print')
      {steps {sh 'echo hello_jenkins'}}
 
-{   stage ('my secound job to print')
+    stage ('my secound job to print')
      {steps {sh 'echo hi_maven'}}
  
-{   stage ('my therd job to print')
+    stage ('my therd job to print')
      {steps {sh 'echo hi_java'}}
     
-}            
+}
+}
 }
